@@ -1,21 +1,9 @@
-﻿using System;
-
-namespace StructVsClass
+﻿namespace StructVsClass
 {
-    public class Pessoa
-    {
-        public int Idade { get; set; }
-        public string Nome { get; set; }
-    }
-
-    public class Emprego
-    {
-        public string Nome { get; set; }
-    }
-
     public struct Cliente
     {
         public string Nome { get; set; }
+        public int Idade { get; set; }
     }
 
     internal class Program
@@ -49,48 +37,64 @@ namespace StructVsClass
         //    return soma;
         //}
 
+        //public class Pessoa
+        //{
+        //    public int Idade { get; set; }
+        //    public string Nome { get; set; }
+        //}
+
+        //Exemplo 1 Heap
         //private static void Main(string[] args)
         //{
-        //Exemplo 1
-        //Pessoa pessoa;
+        //    Pessoa pessoa;
 
-        //pessoa = new Pessoa();
-        //pessoa.Nome = "Pub-Dev";
-        //pessoa.Idade = 1;
+        //    pessoa = new Pessoa
+        //    {
+        //        Nome = "Pub-Dev",
+        //        Idade = 1
+        //    };
 
-        //Exemplo 2
-        //Pessoa pessoa;
-        //Pessoa pessoa2;
+        //    return;
+        //}
 
-        //pessoa = new Pessoa();
-        //pessoa.Nome = "Pub-Dev";
-        //pessoa.Idade = 1;
+        //Exemplo 2 HEAP
+        //private static void Main(string[] args)
+        //{
+        //    Pessoa pessoa;
+        //    Pessoa pessoa2;
 
-        //pessoa2 = pessoa;
+        //    pessoa = new Pessoa();
+        //    pessoa.Nome = "Pub-Dev";
+        //    pessoa.Idade = 1;
 
-        //pessoa2.Nome = "Dev-Pub";
+        //    pessoa2 = pessoa;
 
-        //Console.WriteLine(pessoa.Nome);
-        //Console.ReadKey();
+        //    pessoa2.Nome = "Dev-Pub";
 
-        //Exemplo 3
-        //Pessoa pessoa;
+        //    return;
+        //}
 
-        //pessoa = new Pessoa();
-        //pessoa.Nome = "Pub-Dev";
-        //pessoa.Idade = 1;
+        //Exemplo 3 HEAP
+        //private static void Main(string[] args)
+        //{
+        //    Pessoa pessoa = new Pessoa
+        //    {
+        //        Nome = "Pub-Dev",
+        //        Idade = 1
+        //    };
 
-        //pessoa2 = pessoa;
+        //    Pessoa pessoa2 = pessoa;
 
-        //MudarNome(pessoa);
+        //    MudarNome(pessoa);
 
-        //Console.WriteLine(pessoa.Nome);
-        //Console.ReadKey();
+        //    Console.WriteLine(pessoa2.Nome);
+
+        //    return;
         //}
 
         //private static void MudarNome(Pessoa pessoa)
         //{
-        //    pessoa.Nome = "Novo Nome";
+        //    pessoa.Nome = "Dev-Pub";
         //}
     }
 }
