@@ -1,23 +1,17 @@
 ﻿namespace StructVsClass
 {
-    public struct Cliente
-    {
-        public string Nome { get; set; }
-        public int Idade { get; set; }
-    }
-
     internal class Program
     {
         //Exemplo 1 Stack
-        private static void Main(string[] args)
-        {
-            int primeiro = 10;
-            int segundo = 5;
+        //private static void Main(string[] args)
+        //{
+        //    int primeiro = 10;
+        //    int segundo = 5;
 
-            int terceiro = primeiro + segundo;
+        //    int terceiro = primeiro + segundo;
 
-            return;
-        }
+        //    return;
+        //}
 
         //Exemplo 2 Stack
         //private static void Main(string[] args)
@@ -95,6 +89,35 @@
         //private static void MudarNome(Pessoa pessoa)
         //{
         //    pessoa.Nome = "Dev-Pub";
+        //}
+
+        //EXTRAS
+        //public class Cliente
+        //{
+        //    public string Nome { get; set; }
+        //    public int Idade { get; set; }
+
+        //    public Cliente(string nome, int idade)
+        //    {
+        //        Nome = nome;
+        //        Idade = idade;
+        //    }
+        //}
+
+        //public static void Main(string[] args)
+        //{
+        //    var cliente1 = new Cliente("humberto", 26);
+        //    var cliente2 = cliente1;
+
+        //    if (cliente1.Equals(cliente2))
+        //    {
+        //        System.Console.WriteLine("IGUAIS");
+        //    }
+        //    else
+        //    {
+        //        System.Console.WriteLine("DIFERENTES");
+        //    }
+        //    System.Console.ReadLine();
         //}
     }
 }

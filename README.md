@@ -7,9 +7,9 @@ References:
  - [Value Types](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/value-types)
  - [Reference Types](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/reference-types)
 
- Aproveite e se inscreva no nosso canal no youtube [PubDev](https://www.youtube.com/channel/UCF8Ctp1tamA9TV1hp0azjhg)
+ Aproveite e se inscreva no nosso canal no youtube : [PubDev](https://www.youtube.com/channel/UCF8Ctp1tamA9TV1hp0azjhg)
 
- e nos siga nas redes sociais:
+ e nos siga nas redes sociais
 
 1berto
  - [instagram](https://www.instagram.com/1bberto)
